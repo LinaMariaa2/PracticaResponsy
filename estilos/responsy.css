@@ -1,0 +1,235 @@
+.border{
+    border: 1px solid green;
+    background-color: rgb(226, 236, 233);
+}
+@media screen and (max-width: 300px){
+    body{
+        background-color: rgb(238, 240, 140);
+    }
+    
+    section{
+        width: 100%;
+    }
+    section img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    .nav1{
+        width: 100%;
+        text-align: center;
+    }
+    .nav2{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .nav3{
+        width: 100%;
+        text-align: center;
+    }
+    .main{
+        margin-left: 0vw;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    
+
+}
+
+@media screen and (min-width: 301px) and (max-width:600px ){
+    body{
+        background-color: rgb(126, 148, 247);
+    }
+    
+    section{
+        width: 50%;
+        margin-left: 25vw;
+        
+    }
+    section img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    .nav1{
+        width: 100%;
+        text-align: center;
+    }
+    .nav2{
+        width: 50%;
+        text-align: center; 
+        margin-left: 25vw;
+        
+    }
+    .nav3{
+        width: 50%;
+        text-align: center;
+        margin-left: 25vw;
+    }
+    .main{
+        margin-left: 0vw;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 601px) and (max-width:900px ){
+    body{
+        background-color: rgb(231, 90, 90);
+    }
+   
+    section{
+        width: 30%;
+        margin-left: 35vw;
+    }
+    section img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%; 
+    }
+    h1{
+        width: 40%;
+        text-align: center;
+        margin-left: 30vw;
+    }
+    .nav1{
+        width: 30%;
+        text-align: center;
+        margin-left: 35vw;
+    }
+    .nav2{
+        width: 50%;
+        text-align: center;
+        margin-left: 25vw;
+
+        
+    }
+    .nav3{
+        width: 50%;
+        text-align: center;
+        margin-left: 25vw;
+    }
+    
+    .main{
+        margin-left: 0vw;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+   
+   
+}
+
+@media screen and (min-width: 901px) and (max-width:1200px ){
+    body{
+        background-color: rgb(236, 124, 240);
+    }
+    
+    section{
+        width: 30%;
+        margin-left: 35vw;
+    }
+    section img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    h1{
+        width: 30%;
+        text-align: center;
+        margin-left: 35vw;
+    }
+    .nav1{
+        width: 30%;
+        text-align: center;
+        margin-left: 35vw;
+        
+    }
+    .nav2{
+        width: 10%;
+        text-align: center;
+        margin-left: 45vw;
+       
+    }
+    .nav3{
+        width: 100%;
+        text-align: center;
+    }
+    .main{
+        margin-left: 0vw;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:1201px ){
+    body{
+        background-color: rgb(159, 228, 159);
+    }
+    
+    section{
+        width: 10%;
+        margin-left: 45vw;
+    }
+    section img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    h1{
+        width: 20%;
+        text-align: center;
+        margin-left: 40vw;
+    }
+    .nav1{
+        width: 40%;
+        text-align: center;
+        margin-left: 30vw;
+    }
+    .nav2{
+        width: 20%;
+        text-align: center;
+        margin-left: 40vw;
+    }
+    .nav3{
+        width: 10%;
+        text-align: center;
+        margin-left: 45vw;
+    }
+    .main{
+        margin-left: 0vw;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+
